@@ -47,10 +47,9 @@ public class UDPServer {
                 String datoRecibido = new String(receivePacket.getData());
                 datoRecibido = datoRecibido.trim();
                 System.out.println("DatoRecibido: " + datoRecibido );
+                
                 SensoresMeteorologicos p = SensoresMeteorologicosJSON1.stringObjeto(datoRecibido);
-                System.out.println("prueba");
                 InetAddress IPAddress = receivePacket.getAddress();
-                System.out.println("prueba2");
                 int port = receivePacket.getPort();
 
                 System.out.println("De : " + IPAddress + ":" + port);
@@ -78,6 +77,8 @@ public class UDPServer {
         	ex.printStackTrace();
             System.exit(1);
         }
+        
+        System.out.println("Matias Sanchez  04/01/1999");
 
     }
 }  

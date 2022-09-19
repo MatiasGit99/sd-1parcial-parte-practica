@@ -6,7 +6,7 @@ import java.util.List;
 import py.una.entidad.SensoresMeteorologicos;
 
 
-public class TestPersonaDAO {
+public class TestSensoresDAO {
 
 	
 	

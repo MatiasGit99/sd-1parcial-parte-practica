@@ -61,6 +61,7 @@ class UDPClient {
             Double velocidad_viento = 0.0;
             velocidad_viento = Double.parseDouble(strvelocidad_viento);
             
+            
           SensoresMeteorologicos p = new SensoresMeteorologicos(id_estacion, ciudad, porcentaje_humedad, temperatura, velocidad_viento);
           
             String datoPaquete = SensoresMeteorologicosJSON1.objetoString(p); 
@@ -103,6 +104,8 @@ class UDPClient {
         } catch (IOException ex) {
             System.err.println(ex);
         }
+                System.out.println("Matias Sanchez  04/01/1999");
+
     }
 } 
 
