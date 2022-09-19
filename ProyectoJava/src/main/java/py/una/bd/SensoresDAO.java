@@ -9,7 +9,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import py.una.entidad.Persona;
 import py.una.entidad.SensoresMeteorologicos;
 
 public class SensoresDAO {

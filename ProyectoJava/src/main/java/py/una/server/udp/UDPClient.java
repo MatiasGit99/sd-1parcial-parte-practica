@@ -46,7 +46,6 @@ class UDPClient {
             
             System.out.println("Ingrese porcentaje_humedad");
             String strporcentaje_humedad = inFromUser.readLine();
-            System.out.println("PROHLEMASDFJS");
             Double porcentaje_humedad =0.0;
             porcentaje_humedad = Double.parseDouble(strporcentaje_humedad);
 
