@@ -7,4 +7,11 @@
  - SensoresMeteorologicos
  - SensoresMeteorologicosJSON1
 
+# Clases modificadas:
+
+ - UDPClient
+ - UDPServer
+
+
+
 
